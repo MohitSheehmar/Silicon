@@ -5,156 +5,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <header class="sticky">
+    <header class="header-wrapper">
         <div class="container">
-            <div class="flex padding">
-                <div class="w70">
+            <div class="flex">
+                <div class="w-70 flex nav-items-center mobile-w-100 ">
                     <a class="logo" href="#!">
                         <img class="logo" src="images/SI14.svg" alt="logo">
                         Silicon
                     </a>
-                    <a class="nav nav-tag-1 "
-                        href="https://silicon.createx.studio/landing-mobile-app-showcase-v1.html# ">Landings</a>
-                    <a class="nav" href="#!">Pages</a>
-                    <a class="nav" href="#!">Account</a>
-                    <a class="nav" href="http://127.0.0.1:5500/ul.html">UI Kit</a>
-                    <a class="nav" href="#!">Docs</a>
+                    <nav class="nav-items">
+                        <a class="nav-item" href="#!">Landings</a>
+                        <a class="nav-item" href="#!">Pages</a>
+                        <a class="nav-item" href="#!">Accounts</a>
+                        <a class="nav-item" href="http://127.0.0.1:5500/ul.html">UI Kits</a>
+                        <a class="nav-item" href="#!">Docs</a>
+                    </nav>
                 </div>
-                <div class="w30">
+                <div class="w-30 mobile-w-100 ">
                     <img class="mode-icon" src="images/Mode.png" alt="mode">
-                    <a class="button" href="#!">Buy Now</a>
+                    <a class="btn-primary" href="#!">Buy Now</a>
+                    <i class="fa-solid fa-bars hamburger-icon"></i>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="s1">
+    <section class="hero-sec-1">
         <div class="container">
-            <div class="flex padding ">
-                <div class="w40 mobile-w-100  mobile-text-centre">
-                    <h1 class="text">Manage All Your Money In One App</h1>
-                    <p>We offer you a new generation of the mobile banking.
-                        Save, spend & manage money in your pocket.</p>
-                    <div class="flex mobile-button-center">
-                        <a href="https://silicon.createx.studio/landing-mobile-app-showcase-v1.html#">
-                            <img class="apple-google appstore" class="appstore" src="images/appstore-light.svg"
-                                alt="svg"></a>
-                        <a href="https://silicon.createx.studio/landing-mobile-app-showcase-v1.html#">
-                            <img class="apple-google appstore-1" class="appstore" src="images/googleplay-light.svg"
-                                alt="svg"></a>
-                    </div>
+            <div class="flex flex-wrap">
+                <div class="w-40 p-m mobile-w-100">
+                    <h1 class="text">Manage All Your <br> Money In One App</h1>
+                    <p class="section-p">We offer you a new generation of the mobile banking. Save, spend & manage money
+                        in your pocket.</p>
+                    <a href="#!">
+                        <img class="btn-primary-apple mobile-w-100" src="images/appstore-light.svg" alt="Appstore"></a>
+                    <a href="#!">
+                        <img class="btn-primary-google mobile-w-100" src="images/googleplay-light.svg"
+                            alt=" Google Playstore"></a>
                 </div>
-
-                <div class="w60 position mobile-w-100">
-                    <img class="hero-phone" src="images/hero-phone1.png" alt="img">
-                    <img class="hero-phone-2" src="images/hero-phone-2.png" alt="img">
+                <div class="w-60 position-relative mobile-w-100">
+                    <img class="hero-phone-1" src="images/hero-phone-2.png" alt="img">
+                    <img class="hero-phone-2" class="position-absolute" src="images/hero-phone1.png" alt="img">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="s2">
-        <div class="container">
-            <div class="flex padding">
-                <div class="logos mobile-w-28 "><img src="images/01.svg" alt="logo"></div>
-                <div class="logos mobile-w-28 "><img src="images/logoipsum.svg" alt="logo"></div>
-                <div class="logos mobile-w-28 "><img src="images/logoipsum2.svg" alt="logo"></div>
-                <div class="logos mobile-w-28 "><img src="images/logoipsum3.svg" alt="logo"></div>
-                <div class="logos mobile-w-28 "><img src="images/logoipsum4.svg" alt="logo"></div>
-                <div class="logos mobile-w-28 "><img src="images/logoipsum5.svg" alt="logo"></div>
+    <section class="sec-p">
+        <div class="contianer">
+            <div class="flex flex-wrap">
+                <div class="logos mobile-w-45 tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/01.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="logos mobile-w-45 tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/logoipsum.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="logos mobile-w-45 display tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/logoipsum2.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="logos mobile-w-45 display tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/logoipsum3.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="logos mobile-w-45 display tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/logoipsum4.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="logos  mobile-w-45 display tablet-w-15 ">
+                    <a href="#!">
+                        <img src="images/logoipsum5.svg" alt="logo">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="s3">
+    <section class="sec-p">
         <div class="container">
-            <div class="flex padding">
-                <div class="w40 mobile-w-100 position">
-                    <img class="phone" src="images/phone.png" alt="img">
+            <div class="flex mobile-flex-wrap">
+                <div class="w-40 position-relative mobile-w-100">
+                    <img src="images/phone.png" alt="img">
                     <img class="card" src="images/card.png" alt="img">
                 </div>
-                <div class="w60 mobile-w-100">
-                    <h2 class="text ml-s3">App Features</h2>
-                    <p class="bg-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis
-                        egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at
-                        nec lacus.
+                <div class="w-60 mobile-w-100">
+                    <div class="mobile-text-center ml-20">
+                        <h2 class="spacing font-weight font-size">App Features</h2>
+                        <p class="bg-grey spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                            volutpat mollis
+                            egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum,
+                            at
+                            nec lacus.
+                    </div>
+
                     </p>
-                    <di  class="flex padding">
+                    <div class="flex mobile-flex-wrap">
                         <div class="column-1">
-                            <div class="flex p-25">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/payments.svg" alt="img">
+                                    <img class="svg" src="images/payments.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Easy Payments</h3>
-                                    <p class="mt8 grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
                                         justo.</p>
                                 </div>
                             </div>
-                            <div class="flex p-25">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/statistics.svg" alt="img">
+                                    <img class="svg" src="images/statistics.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Cost Statistics</h3>
-                                    <p class="mt8 grey">Mattis urna ultricies non amet, purus in auctor non. Odio
-                                        vulputate
-                                        ac nibh.</p>
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                        justo.</p>
                                 </div>
                             </div>
-                            <div class="flex p-25">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/cashback.svg" alt="img">
+                                    <img class="svg" src="images/cashback.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Regular Cashback</h3>
-                                    <p class="mt8 grey">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum
-                                        imperdiet eleifend.
-                                    </p>
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                        justo.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="column-2">
-                            <div class="flex p-25 ">
+                        <div class="column-2 ">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/security.svg" alt="img">
+                                    <img class="svg" src="images/security.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Data Security</h3>
-                                    <p class="mt8 grey">Augue pulvinar justo, fermentum fames aliquam accumsan
-                                        vestibulum
-                                        non.</p>
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                        justo.</p>
                                 </div>
                             </div>
-                            <div class="flex p-25">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/support.svg" alt="img">
+                                    <img class="svg" src="images/support.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Support 24/7</h3>
-                                    <p class="mt8 grey">A elementum, imperdiet enim, pretium etiam facilisi in aenean
-                                        quam
-                                        mauris.</p>
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                        justo.</p>
                                 </div>
                             </div>
-                            <div class="flex p-25">
+                            <div class="flex p-25 mobile-p-10">
                                 <div>
-                                    <img class="p20" src="images/happy.svg" alt="img">
+                                    <img class="svg" src="images/happy.svg" alt="img">
                                 </div>
                                 <div class="ml-20">
-                                    <h3 class="mt0">Top Standards</h3>
-                                    <p class="mt8 grey">Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id.
-                                        Sit
-                                        facilisis
-                                        dolor arcu.</p>
+                                    <h3 class="mt-0">Easy Payments</h3>
+                                    <p class="bg-grey">Id mollis consectetur congue egestas egestas suspendisse blandit
+                                        justo.</p>
                                 </div>
                             </div>
                         </div>
@@ -164,102 +187,57 @@
         </div>
     </section>
 
-    <section class="s4">
+    <section class="sec-p bg-ligth-blue">
         <div class="container">
-            <h2 class="center">How Does It Works?</h2>
-            <div class="flex padding">
-                <div class="w33">
-                    <img class="cover" src="images/cover1.png" alt="img">
-                </div>
-                <div class="w33">
-                    <img class="cover" src="images/cover2.png" alt="img">
-                </div>
-                <div class="w33">
-                    <img class="cover" src="images/cover3.png" alt="img">
+            <h2 class="text-center font-size font-weight">How Does It Works?</h2>
+            <div class="flex ">
+                <div class="flex p18">
+                    <div class="w33 mobile-w-100">
+                        <img src="images/cover1.png" alt="image">
+                    </div>
+                    <div class="w33  display">
+                        <img src="images/cover2.png" alt="image">
+                    </div>
+                    <div class="w33 display">
+                        <img src="images/cover3.png" alt="image">
+                    </div>
                 </div>
             </div>
-            <div class="w50 content">
-                <h3 class="s4-text">Step 2. Latest transaction history</h3>
+
+            <div class="w-50 content text-center mobile-w-100">
+                <h3 class="s4-text-steps">Step 2. Latest transaction history</h3>
                 <p class="bg-grey">Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis
                     tristique quisque hac in consectetur condimentum.</p>
             </div>
         </div>
     </section>
 
-    <section class="s5">
+    <section class="sec-p">
         <div class="container">
-            <div class="flex padding">
-                <div class="w60 mt20 mobile-w-100">
-                    <h2 class="text-01">Make Your Money Transfer Simple And Clear</h2>
-                    <div class="flex margin-bottom">
-                        <svg class="checkbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span class="grey">Banking transactions are free for you</span>
-                    </div>
-                    <div class="flex margin-bottom">
-                        <svg class="checkbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span class="grey">No monthly cash commission</span>
-                    </div>
-                    <div class="flex margin-bottom">
-                        <svg class="checkbox" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span class="grey">Manage payments and transactions online</span>
-                    </div>
-                    <div class="mt20">
-                        <a class="btn-2" href="#!"> Learn More
-                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                            </svg>
-                        </a>
-                    </div>
+            <div class="flex mobile-flex-wrap">
+                <div class="w-40 position-relative mobile-w-100">
+                    <img src="images/screen.png" alt="image">
+                    <img class="screencard-1-sec-5 position-absolute" src="images/screencard.png" alt="image">
                 </div>
-                <div class="w40 position mobile-w-100 mt-sec5-card">
-                    <img class="screen" src="images/screen.png" alt="img">
-                    <img class="screencard" src="images/screencard.png" alt="img">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s6">
-        <div class="container">
-            <div class="flex padding">
-                <div class="w40 mobile-w-100 position">
+                <div class="w-60 mobile-w-100 ml-15p">
                     <div>
-                        <img src="images/screen01.png" alt="img">
+                        <h2 class="font-size font-weight mobile-text-center m-t-b-l-r">Make Your Money <br>Transfer Simple
+                            And Clear</h2>
                     </div>
-                    <div>
-                        <img class="sc2" src="images/screencard2.png" alt="img">
+                    <div class="flex mb-16">
+                        <i class="fa-regular fa-circle-check bg-blue-arrow"></i>
+                        <span class="bg-grey ml-10">Banking transactions are free for you.</span>
                     </div>
-                </div>
-                <div class="w60 mobile-w-100 w-s6">
-                    <h2 class="text">Receive payment from international bank details</h2>
-                    <div class="flex">
-                        <div>
-                            <img src="images/payments.svg" alt="img">
-                            <p class="grey">Manage your payments online. Mollis congue egestas egestas fermentum fames.
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/cashback.svg" alt="img">
-                            <p class="grey">A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.
-                            </p>
-                        </div>
+                    <div class="flex mb-16">
+                        <i class="fa-regular fa-circle-check bg-blue-arrow"></i>
+                        <span class="bg-grey ml-10">No monthly cash commission.</span>
                     </div>
-                    <div class="mt20">
-                        <a class="btn-2" href="#!"> Learn More
+                    <div class="flex ">
+                        <i class="fa-regular fa-circle-check bg-blue-arrow"></i>
+                        <span class="bg-grey ml-10">Manage payments and transactions online.</span>
+                    </div>
+                    <div class="mt-mb-20 mobile-text-center">
+                        <a class="btn-secondary" href="#!"> Learn More
                             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -272,150 +250,44 @@
         </div>
     </section>
 
-    <section class="s7">
+    <section class="sec-p">
         <div class="container">
-            <div class="flex">
-                <div class="w30 mobile-w-100">
-                    <h2 class="size-w">Clients are Loving Our App</h2>
+            <div class="flex mobile-flex-wrap">
+                <div class="w-40 position-relative mobile-w-100 mobile-p-10">
+                    <img src="images/screen01.png" alt="image">
+                    <img class="position-absolute screencard-1-sec-6" src="images/screencard2.png" alt="image">
                 </div>
-                <div class="w70 mobile-w-100">
-                    <div class="flex padding">
-                        <div class="sizing">
-                            <div class="m-r">
-                                <img src="images/qoutes.png" alt="img">
-                            </div>
-                            <div class="p22">
-                                <img src="images/stars.png" alt="img">
-                                <p class="bg-grey-2">Etiam augue ante, imperdiet et nunc sed, bibendum faucibus est.
-                                    Suspendisse egestas facilisis erat eu eleifend. Pellentesque finibus congue egestas
-                                    egestas suspendisse blandit justo.</p>
-                            </div>
-                            <div class="flex p-15">
-                                <img class="w-70 mobile-w-20" src="images/boy.png" alt="img">
-                                <div>
-                                    <h3 class="s7-m">Jerome Bell</h3>
-                                    <span class="grey">Developer</span>
-                                </div>
-                            </div>
+                <div class="w-60 ml-15p mobile-w-100 mobile-p-10">
+                    <h2 class="font-size font-weight m-t-b-l-r mobile-text-center">Receive payment from international
+                        bank details</h2>
+                    <div class="flex mobile-flex-wrap mobile-p-10">
+                        <div>
+                            <img class="svg-sec-6" src="images/payments.svg" alt="img">
+                            <p class="bg-grey">Manage your payments online. Mollis congue egestas egestas fermentum
+                                fames.
+                            </p>
                         </div>
-                        <div class="sizing">
-                            <div class="m-r">
-                                <img src="images/qoutes.png" alt="img">
-                            </div>
-                            <div class="p22">
-                                <img src="images/stars.png" alt="img">
-                                <p class="bg-grey-2">Sit pretium aliquam tempor, orci dolor sed maecenas rutrum
-                                    sagittis. Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi
-                                    vitae lectus hac hendrerit. Montes justo turpis sit amet.</p>
-                            </div>
-                            <div class="flex p-15">
-                                <img class="w-70 mobile-w-20" src="images/girl.png" alt="img">
-                                <div>
-                                    <h3 class="s7-m">Fannie Summers</h3>
-                                    <span class="grey">Designer</span>
-                                </div>
-                            </div>
-
+                        <div>
+                            <img class="svg-sec-6" src="images/cashback.svg" alt="img">
+                            <p class="bg-grey">A elementur and imperdiet enim, pretium etiam facilisi aenean quam
+                                mauris.
+                            </p>
                         </div>
+                    </div>
+                    <div class="mt-mb-20 mobile-text-center">
+                        <a class="btn-secondary" href="#!"> Learn More
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="s8">
-        <div class="container">
-            <div class="flex padding">
-                <div class="w40 mobile-w-100">
-                    <h2>Any questions?<br> Check out the FAQs</h2>
-                    <p class="grey size-s8">Still have unanswered questions and need <br> to get in touch?</p>
-                    <div class="flex">
-                        <div class="s8-box">
-                            <p class="grey">Still have questions</p>
-                            <a class="blue-s8"
-                                href="https://silicon.createx.studio/landing-mobile-app-showcase-v1.html#"><strong>Call
-                                    us</strong>
-                                <svg class="bg-blue-arrow" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="s8-box">
-                            <p class="grey">Still have questions</p>
-                            <a class="green-s8"
-                                href="https://silicon.createx.studio/landing-mobile-app-showcase-v1.html#"><strong>Chat
-                                    with us</strong>
-                                <svg class="bg-green-arrow" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w60 mobile-w-100">
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            Is any of my personal information stored in the App?
-                        </h3>
-                    </div>
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            What formats can I download my transaction history in?
-                        </h3>
-                    </div>
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            Can I schedule future transfers?
-                        </h3>
-
-                    </div>
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            When can I use Banking App services?
-                        </h3>
-                    </div>
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            Can I create my own password that is easy for me to remember?
-                        </h3>
-                    </div>
-                    <div class="border-sizing-s8">
-                        <h3 class="m0-s8">
-                            What happens if I forget or lose my password?
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s9">
-        <div class="container-s9">
-            <div class="flex padding-s9 padding">
-                <div class="w50 mobile-w-100">
-                    <div class="flex">
-                        <img class="w-s9" src="images/bell.svg" alt="svg">
-                        <h2 class="m0-s9">Subscribe to our newsletter to <br>stay informed about latest <br> updates
-                        </h2>
-                    </div>
-                </div>
-                <div class="w50"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="s-10">
-        <div class="container">
-            <div class="silicon-svg-sec10">
-                <img src="images/SI14.svg" alt="svg">
-            </div>
-        </div>
-
-    </section>
 </body>
 
 </html>
